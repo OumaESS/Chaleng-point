@@ -1,0 +1,152 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+}
+
+
+
+
+.intro-div{
+    width: 50%;
+    float: left;
+}
+
+
+#logo{
+    margin-left: 25%;
+    padding: 2% 2%;
+}
+
+.paragraph-section{
+    padding-top: 5em;
+    margin-left: 25%;
+}
+
+.paragraph-section h1{
+    
+
+}
+
+.paragraph-section  span{
+    background:black;
+    padding: 0.2em;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 120%;
+    float: left;
+    text-align: start;
+    font-weight: bold;
+}
+
+.paragraph-section #first-paragraph{
+    position: relative;
+    text-transform: uppercase;
+    color: #CDD2D6;
+    left: 1em;
+    bottom: 0.8em;
+    
+}
+
+.paragraph-section #last-paragraph{
+    color: #8E929B;
+    text-align: start;
+    font-weight:    
+}
+
+
+
+.button-section{
+    position: relative;
+    color: #CDD2D6;
+    margin-left: 25%;
+    text-decoration: none;
+    top: 2em;
+}
+ 
+.button-section a {
+    text-decoration: none;
+    padding-left: 2em;
+    color: gray;
+ }
+
+
+
+.button-section Button {
+    background-color: #ff5d5d; 
+    border: none;
+    color: white;
+    padding: 3% 5%;
+    font-size: 1rem;
+    border-radius: 10%;
+    font-family: 'Barlow Condensed', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* The first section art divs */
+
+
+.art-div{
+    position: fixed;
+    left: 35%;
+    top: 35%;
+    
+}
+
+.art-div img{
+    position: relative;
+    left: 30%;
+    width: 65%;
+
+}
+
+.art-div ul{
+ position: fixed;
+ left: 55%;
+ top: 10%;
+}
+
+.art-div ul li{
+    display: inline;
+    padding: 2em 2em;  
+    
+}
+
+.art-div ul li a{
+    text-transform: uppercase;    
+    font-size: 1em;    
+    color: rgb(31, 22, 22);    
+    text-decoration: none;    
+    font-weight:bold;
+} 
+
+.art-div ul li a:hover{
+    color: salmon
+}
+
+
+.art-div .dotted-circle{
+    clip-path: circle(3.2% at 50% 50%);
+    color: rgb(236, 32, 32);
+}
+
+.art-div .login-grey{
+    color:rgb(161, 154, 154);   
+}
+
+
+
+/* the second section background gris*/
+.art-background{
+    position: relative;
+    left: 55%;
+    top: 35%;
+    background-color: rgb(231, 236, 236);
+    border-bottom-left-radius: 20%;
+    width: 48%;
+    height: 18em;   
+}
